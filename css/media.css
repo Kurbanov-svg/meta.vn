@@ -61,3 +61,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 327px) {
+  .future-text p {
+    max-width: 327px;
+  }
+}
