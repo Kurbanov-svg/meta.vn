@@ -4,7 +4,6 @@
   font-family: Orbitron, sans-serif;
   text-decoration: none;
   box-sizing: border-box;
-  outline: 1px solid blue;
 }
 
 .header {
@@ -12,7 +11,7 @@
 }
 
 body {
-  background-color: #1b8f8f;
+  background-color: #010209;
 }
 
 .container {
@@ -59,7 +58,7 @@ nav a {
 }
 
 #future {
-  padding-block: 35px;
+  padding-block: 100px;
 }
 
 #header {
@@ -122,4 +121,53 @@ nav a {
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+/* .text-know {
+  position: absolute;
+}
+
+.img {
+  position: relative;
+  left: 100px;
+  bottom: 85px;
+  z-index: -1;
+}
+
+#know {
+  margin-top: 25px;
+}
+
+.text-know {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.know-blok {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.know-blok button {
+  padding: 10px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  color: white;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+
+.know-blok p {
+  max-width: 500px;
+  color: white;
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.145rem);
+}
+
+.know-blok h1 { */
+  font-size: clamp(0.938rem, 0.824rem + 0.57vw, 1.25rem);
+  color: white;
 }

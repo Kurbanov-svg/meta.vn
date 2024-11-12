@@ -51,6 +51,11 @@
     justify-content: center;
   }
 
+  .future {
+    display: flex;
+    justify-content: center;
+  }
+
   .future-blok {
     display: flex;
     justify-content: center;
