@@ -109,13 +109,13 @@
 
 @media (max-width: 1000px) {
   .big-box img {
-    max-width: 1000px;
+    max-width: 350px;
     width: 100%;
-    margin-right: 60px;
+    margin-right: 90px;
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 480px) {
   .sub-footer {
     position: relative;
     top: 10px;
@@ -141,11 +141,11 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   .sub-footer {
     position: relative;
-    top: 10px;
-    right: 3px;
+    top: 80px;
+    right: 5px;
     color: white;
     font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
   }
@@ -156,7 +156,7 @@
 
   .blok-img {
     position: relative;
-    top: 75px;
+    top: 135px;
     right: 50px;
     max-width: 50px;
     width: 100%;
@@ -166,5 +166,61 @@
     position: relative;
     top: 150px;
     left: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .sub-footer {
+    position: relative;
+    top: 80px;
+    right: 5px;
+    color: white;
+    font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+  }
+
+  .big-box {
+    position: absolute;
+  }
+
+  .blok-img {
+    position: relative;
+    top: 135px;
+    right: 50px;
+    max-width: 50px;
+    width: 100%;
+  }
+
+  .blok-text {
+    position: relative;
+    top: 100px;
+    margin-inline: 15px;
+  }
+}
+
+@media (max-width: 390px) {
+  .sub-footer {
+    position: relative;
+    top: 80px;
+    right: 5px;
+    color: white;
+    font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
+  }
+
+  .big-box {
+    position: absolute;
+  }
+
+  .blok-img {
+    position: relative;
+    top: 135px;
+    right: 50px;
+    max-width: 50px;
+    width: 100%;
+  }
+
+  .blok-text {
+    position: relative;
+    top: 100px;
+    margin-inline: 15px;
   }
 }
