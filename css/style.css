@@ -6,7 +6,10 @@
   box-sizing: border-box;
   outline: 1px crimson;
 }
-
+p,
+a {
+  font-family: Poppins, sans-serif;
+}
 .header {
   display: none;
 }
@@ -114,11 +117,13 @@ nav a {
   font-size: clamp(0.813rem, 0.676rem + 0.68vw, 1.188rem);
   margin-top: 20px;
   color: #fff;
+  border: none;
 }
 
 .btn a {
   padding: 12px;
-  text-align: center;
+  display: flex;
+  align-items: center;
   height: 40px;
   border-radius: 4px;
   border: solid 1px;
@@ -174,6 +179,7 @@ nav a {
   height: 40px;
   border-radius: 6px;
   color: white;
+  border: none;
 }
 
 .logo-text h1 {
@@ -202,7 +208,8 @@ nav a {
   padding-block: 20px;
 }
 
-.work-box {
+.work-box,
+.work-box1 {
   color: #fff;
 }
 
@@ -210,13 +217,15 @@ nav a {
   font-size: clamp(0.938rem, 0.833rem + 0.52vw, 1.25rem);
 }
 
-.work-box {
+.work-box,
+.work-box1 {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.work-box {
+.work-box,
+.work-box1 {
   max-width: 385px;
   height: 500px;
   background-color: rgba(9, 8, 35, 1);
@@ -225,7 +234,8 @@ nav a {
   border-radius: 25px;
 }
 
-.work-box img {
+.work-box .work-box1,
+img {
   max-width: 320px;
   width: 100%;
   margin-right: 15px;
@@ -250,7 +260,8 @@ nav a {
   font-size: clamp(0.813rem, 0.676rem + 0.68vw, 1.075rem);
 }
 
-.work-box p {
+.work-box.work-box1,
+p {
   max-width: 330px;
   margin-inline: 20px;
 }
@@ -263,6 +274,8 @@ nav a {
   border: solid 1px;
   border: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .work {
@@ -298,11 +311,12 @@ nav a {
 .activity-image img {
   width: 100%;
   border-radius: 10px;
+  max-width: 1150px;
 }
 .activity-text {
   position: absolute;
-  bottom: 15px;
-  left: 15px;
+  bottom: 10px;
+  left: 25px;
   font-size: 24px;
   color: #ffffff;
   text-shadow: 0px 0px 5px #000;
@@ -321,6 +335,7 @@ nav a {
 
 .footer-column p {
   max-width: 400px;
+  margin-right: 50px;
 }
 
 .footer-column span {
