@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #350341;
+  background-color: #010209;
 }
 
 .container {
@@ -59,11 +59,11 @@ nav a {
 }
 
 #future {
-  padding-block: 100px;
+  padding-block: 15px;
 }
 
 #header {
-  padding-block: 35px;
+  padding-block: 30px;
 }
 
 .future-text span {
@@ -113,6 +113,7 @@ nav a {
   background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
   font-size: clamp(0.813rem, 0.676rem + 0.68vw, 1.188rem);
   margin-top: 20px;
+  color: #fff;
 }
 
 .btn a {
@@ -125,6 +126,7 @@ nav a {
   border: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
   font-size: clamp(0.813rem, 0.676rem + 0.68vw, 1.075rem);
   margin-top: 20px;
+  color: white;
 }
 
 .future-blok .future-blok {
@@ -179,7 +181,7 @@ nav a {
 }
 
 #work {
-  padding-block: 40px;
+  padding-block: 15px;
 }
 
 .work-title {
@@ -260,6 +262,7 @@ nav a {
   border-radius: 4px;
   border: solid 1px;
   border: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  color: white;
 }
 
 .work {
@@ -313,6 +316,7 @@ nav a {
   flex-wrap: wrap;
   text-align: left;
   color: #fff;
+  gap: 13px;
 }
 
 .footer-column p {
@@ -334,6 +338,10 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.footer-column a {
+  color: white;
 }
 
 .footer-column li {
